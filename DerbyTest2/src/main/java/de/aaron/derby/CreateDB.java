@@ -13,7 +13,7 @@ public class CreateDB {
 		Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
 
 		Connection connection = DriverManager.getConnection(JDBC_URL);
-		//
+
 		// connection.createStatement()
 		// .executeQuery("create table channels(channel varchar(20), topic varchar(20),
 		// videoclip varchar(20))");
